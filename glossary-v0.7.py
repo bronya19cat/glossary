@@ -22,6 +22,8 @@ Version:
 - 0.6 Added the ability to upload glossary.json.
 - 0.7 Automatic uploading is disabled.
 - Next, Consider providing the ability to download words shared by others, perhaps by merging explanations, or by domain
+
+https://github.com/imybfu/glossary.git
 """
 
 # CMD编译时的依赖项

@@ -20,7 +20,7 @@ missing module named grp - imported by shutil (delayed, optional), tarfile (opti
 missing module named _posixsubprocess - imported by subprocess (conditional), multiprocessing.util (delayed)
 missing module named fcntl - imported by subprocess (optional)
 missing module named typing_extensions - imported by urllib3._collections (conditional), urllib3.contrib.emscripten.fetch (conditional), pandas._typing (conditional), webdav4.callback (conditional), anyio._core._eventloop (conditional), anyio.abc._eventloop (conditional), anyio.abc._tasks (conditional), anyio.from_thread (conditional), anyio.to_thread (conditional), anyio.streams.tls (conditional), h11._headers (optional), anyio._backends._asyncio (conditional), anyio._backends._trio (conditional), pkg_resources._vendor.packaging.metadata (conditional, optional), packaging.metadata (conditional, optional)
-missing module named posix - imported by os (conditional, optional), shutil (conditional), importlib._bootstrap_external (conditional), posixpath (optional)
+missing module named posix - imported by os (conditional, optional), posixpath (optional), shutil (conditional), importlib._bootstrap_external (conditional)
 missing module named resource - imported by posix (top-level)
 missing module named _manylinux - imported by pkg_resources._vendor.packaging._manylinux (delayed, optional), packaging._manylinux (delayed, optional)
 missing module named ctypes._CData - imported by ctypes (conditional), webdav4.stream (conditional)
