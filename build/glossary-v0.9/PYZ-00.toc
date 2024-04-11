@@ -1,4 +1,4 @@
-('C:\\Users\\imybfu\\Documents\\OneDrive\\Code\\app\\glossary\\build\\glossary-v0.9\\PYZ-00.pyz',
+('C:\\Users\\imybfu\\Documents\\OneDrive\\code\\project\\glossary\\build\\glossary-v0.9\\PYZ-00.pyz',
  [('__future__',
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.752.0_x64__qbz5n2kfra8p0\\Lib\\__future__.py',

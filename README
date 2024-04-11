@@ -1,0 +1,24 @@
+Welcome to the Glossary App!
+
+This app allows you to manage a glossary of terms, which will be stored in a glossary.xlsx, PLS be sure not to delete that!
+
+How to use:
+
+1. 可以在搜索栏进行搜索单词，可以在左侧列表更新或者删除单词，可以在 Add 区域添加新的单词，支持回车跳转。
+
+2. 可以上传或者下载你的个人文件 “glossary.xlsx” ，你的所有单词信息都存储在该文件中，务必不要删除。
+   另外，你的云端文件通过你上传该文件时使用的设备的MAC地址进行标识，而一台设备连接有线/无线网络使用的网络适配器的MAC地址也是不同的，
+   因此你需要在同一设备的同一网络模式下进行下载。
+
+3. 提供一个初始的单词文件 “glossary_base.xlsx” ，通过该链接下载 https://www.jianguoyun.com/p/DS4qBaMQ6PW1DBj2wL0FIAA ，
+   之后使用 Read File 按钮进行读取。当然你也可以在 “glossary.xlsx” 批量操作，之后使用 Read 功能重新读取。
+
+Source Code: https://github.com/imybfu/glossary.git
+
+# Version:
+# - 0.6 添加上传'glossary.json'功能。
+# - 0.7 关闭自动上传功能，改为手动。
+# - 0.8 使用'text'属性替代'show_frame'模块的'label'，支持长篇幅显示。--240308
+# - 0.9 搜索单词之后可以定位到左侧列表的对应位置。--240313
+# - 1.0 直接使用xlsx取代json文件，并移除import/export功能。上传文件由IP标注改为MAC，加入下载已上传文件功能。--240412
+# - Next, Consider providing the ability to download words shared by others, perhaps by merging explanations, or by domain

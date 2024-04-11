@@ -2,7 +2,7 @@
 # 打开命令提示符(cmd)或终端。
 # 安装PyInstaller。在命令行中输入pip install pyinstaller然后回车。
 # 使用cd命令切换到你的Python脚本所在的目录。例如，如果你的脚本在"C:\Users\YourName\Documents\MyScript.py"，你应该输入cd C:\Users\YourName\Documents\然后回车。
-# 在命令行中输入pyinstaller --noconsole --onefile --icon=Natsume.ico .\dicls.py然后回车。这会告诉PyInstaller将你的脚本和所有的依赖项打包到一个单一的.exe文件中。
+# 在命令行中输入pyinstaller --noconsole --onefile --icon=ico/Natsume.ico .\filename.py然后回车。这会告诉PyInstaller将你的脚本和所有的依赖项打包到一个单一的.exe文件中。
 # 等待PyInstaller完成打包过程。这可能需要几分钟的时间，取决于你的脚本的大小和复杂性。
 # 完成后，你会在当前目录下的"dist"文件夹中找到你的.exe文件。你可以直接运行这个文件，或者将它复制到其他地方。
 
@@ -240,7 +240,7 @@ def upload_to_jianguoyun():
     client = Client(base_url='https://dav.jianguoyun.com/dav/', auth=(username, password))
 
     # 上传文件到指定路径
-    to_path = f'/Nutshare/glossaries/{change_filename}'  # 替换为您的实际目标路径
+    to_path = f'/nutshare/glossary/{change_filename}'  # 替换为您的实际目标路径
     client.upload_file(from_path='glossary.json', to_path=to_path, overwrite=True)
     print(f"File uploaded successfully")
 
